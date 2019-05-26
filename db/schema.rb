@@ -10,26 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_23_134027) do
+ActiveRecord::Schema.define(version: 0) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "posts", force: :cascade do |t|
-    t.string "message"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "users_id"
-    t.index ["users_id"], name: "index_posts_on_users_id"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.text "email"
-    t.text "name"
-    t.text "password"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "password_digest"
+  create_table "insta", primary_key: "user_id", id: :serial, force: :cascade do |t|
+    t.string "username", limit: 50
+    t.string "password", limit: 50
+    t.string "email", limit: 60
+    t.datetime "created_on"
   end
 
 end
