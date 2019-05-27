@@ -42,4 +42,4 @@ you to mistakes or mishaps!
 
 Currently unfinished. Screenshot below shows how far I have got.
 
-<img src="/Users/student/Desktop/Screenshot 2019-05-27 at 21.47.50.png"/>
+<img src="/Users/student/projects/week_8/instagram-challenge/screenshots/Screenshot 2019-05-27 at 21.47.50.png"/>
