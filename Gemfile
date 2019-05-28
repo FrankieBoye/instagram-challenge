@@ -16,3 +16,4 @@ gem 'selenium-webdriver'
 gem 'sass-rails'
 gem 'turbolinks'
 gem 'simple_form'
+gem "paperclip"
